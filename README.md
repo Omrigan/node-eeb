@@ -10,6 +10,7 @@ This awesome template includes
 
 - Bootstrap
 - Jquery
+
 ## Getting Started
 - git clone https://github.com/Omrigan/node-all-inclusive-template.git
 - cd node-all-inclusive-template
