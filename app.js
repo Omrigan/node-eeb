@@ -6,7 +6,6 @@
 var express = require('express');
 var engine = require("ejs-locals");
 var path = require('path');
-var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -15,8 +14,7 @@ var app = express();
 exports.init = function(addRoutes) {
         app.set('views', __dirname + '/views');
         app.set('view engine', 'ejs');
-        
-        app.use(favicon());
+
 		app.use(logger('dev'));
 		app.use(bodyParser.json());
 		app.use(bodyParser.urlencoded());
